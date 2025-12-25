@@ -5,7 +5,7 @@ Go-style context discipline for Node.js. Explicit context passing, cooperative c
 ## Example
 
 ```ts
-import { background } from "ctx";
+import { background } from "go-like-ctx";
 
 async function runJob() {
   const jobCtx = background().withTimeout(2000);
